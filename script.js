@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 } */
             ]
         }],
-        knockout: {
+       /* knockout: {
             rounds: [
                 {
                     name: "Quarterfinals",
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ]
                 }
             ]
-        }
+        }*/
     };
 
     // --- DYNAMIC DATA STORE (JAPANESE) ---
@@ -141,15 +141,15 @@ document.addEventListener('DOMContentLoaded', () => {
         ranking: {
             title: "Group Stage Standings",
             image: "MMSF3GuidebookBlackbox.webp",
-            content: `<p>In the Group Stage, players battle everyone in their group. Standings are determined by match wins. The top two from each group advance to the Knockout Stage.</p>`,
+            content: `<p>In the Group Stage, players battle everyone in their group. Standings are determined by match wins. The player who reached the first place will win the tournament.</p>`,
             dynamicContent: tournamentDataEN // Reference to dynamic data
         },
-        format: {
+       /* format: {
             title: "Knockout Round Results",
             image: "https://pm1.aminoapps.com/8389/351a4299a369e89a7ba8f64418c9e578af6bab05r1-755-1068v2_hq.jpg",
             content: `<p>The main event is a single-elimination knockout bracket. The bracket below shows the final results from the Quarterfinals to the Grand Final.</p>`,
             dynamicContent: tournamentDataEN // Reference to dynamic data
-        },
+        }, */
         rules: { /* ... content remains the same ... */ }
     };
      // --- DATA STORE (JAPANESE) ---
@@ -178,10 +178,10 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "About the Tournament",
             image: "MMSF3TournamentArt.webp",
             content: `
-                <p>Welcome to the official web portal for the Mega Man Star Force 3 Grand Tournament! The world's best Wave-Changers will compete to prove their skill, strategy, and BrotherBand bonds.</p>
+                <p>Welcome to the official web portal for the Mega Man Star Force 3 Mini Tournament! The world's best Wave-Changers will compete to prove their skill, strategy, and BrotherBand bonds.</p>
                 <p>This event celebrates the fast-paced, card-based combat of MMSF3, from masterful folder construction to the tactical mastery of the Noise Change system. Will a Black Ace specialist or a Red Joker powerhouse take the title of Satellite Administrator?</p>
                 <h3>Hosted By Cipher</h3>
-                <p>The MMSF3 Grand Tournament is proudly sanctioned and hosted by the Cipher's Competitive Gaming Division. We are dedicated to ensuring a fair, high-energy event for all participants and viewers, upholding the highest standards of competitive integrity.</p>
+                <p>The MMSF3 Mini Tournament is proudly sanctioned and hosted by the Cipher's Competitive Gaming Division. We are dedicated to ensuring a fair, high-energy event for all participants and viewers, upholding the highest standards of competitive integrity.</p>
             `
         },
         schedule: {
@@ -190,9 +190,8 @@ document.addEventListener('DOMContentLoaded', () => {
             content: `
                 <ul>
                     <li><b>Week 1: Registration</b> - Player registration and folder submission begins.</li>
-                    <li><b>Week 2: Group Stages</b> - The top players are seeded into groups to battle in a round-robin format. Mastering Noise Change and counter-play will be key to advancing.</li>
-                    <li><b>Week 3: Top 16 Knockout Stage</b> - The single-elimination bracket begins. Expect shocking Finalized forms and devastating Giga Card plays as the field narrows.</li>
-                    <li><b>Week 4: Semifinals & Grand Finals</b> - The final four players clash for a spot in the Grand Finals. The last two titans will then battle for the title of Satellite Administrator.</li>
+                    <li><b>Week 2: Group Stages</b> - The top players are seeded into groups to battle in a round-robin format.</li>
+                   
                 </ul>
             `
         },
@@ -284,13 +283,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const originalUiText = {
         en: {
-            pageTitle: "MMSF3 Grand Tournament 2025",
-            mainTitle: "MMSF3 Grand Tournament 2025",
+            pageTitle: "MMSF3 Mini Tournament 2025",
+            mainTitle: "MMSF3 Mini Tournament 2025",
             navAbout: "About",
             navSchedule: "Schedule",
             navBrackets: "Brackets",
             navRanking: "Ranking",
-            navFormat: "Format",
+           /* navFormat: "Format", */
             navRules: "Rules",
             footerText: "This website is for demonstration purposes only. Mega Man Star Force is a property of Capcom."
         },
@@ -522,7 +521,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('nav-schedule').textContent = texts.navSchedule;
         document.getElementById('nav-brackets').textContent = texts.navBrackets;
         document.getElementById('nav-ranking').textContent = texts.navRanking;
-        document.getElementById('nav-format').textContent = texts.navFormat;
+       /* document.getElementById('nav-format').textContent = texts.navFormat; */
         document.getElementById('nav-rules').textContent = texts.navRules;
         document.getElementById('footer-text').textContent = texts.footerText;
     }
