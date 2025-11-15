@@ -1,1 +1,1 @@
-# MMSF3-Mini-Tournament-2025
+# MMSF3-Grand-Tournament-2025
