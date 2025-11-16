@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             matches: [
                /* { p1: 'Cipher', s1: 0, p2: 'libero', s2: 0 },*/
                 { p1: 'Thiago', s1: 2, p2: 'ᴰᵃʳᵏSaidh', s2: 0 },
-               /* { p1: 'Cipher', s1: 0, p2: 'Thiago', s2: 0 }, */
+                { p1: 'Cipher', s1: 0, p2: 'Thiago', s2: 2 },
                 { p1: 'libero', s1: 2, p2: 'ᴰᵃʳᵏSaidh', s2: 0 },
                 { p1: 'Cipher', s1: 1, p2: 'ᴰᵃʳᵏSaidh', s2: 1 }/*,
                 { p1: 'libero', s1: 0, p2: 'Thiago', s2: 0 } */
