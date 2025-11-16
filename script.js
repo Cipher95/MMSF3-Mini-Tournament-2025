@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pageDataEN = {
         about: { /* ... content remains the same ... */ },
         schedule: { /* ... content remains the same ... */ },
-        brackets: { /* ... content remains the same ... */ },
+       /* brackets: { /* ... content remains the same ... */ },*/
         ranking: {
             title: "Group Stage Standings",
             image: "MMSF3GuidebookBlackbox.webp",
@@ -195,14 +195,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
             `
         },
-        brackets: {
+      /*  brackets: {
             title: "Live Brackets",
             image: "https://pm1.aminoapps.com/7274/3c65554aeaaba5a9c50af05f4235b06b22a282d5r1-1448-2048v2_00.jpg",
             content: `
                 <p>Follow every Wave Battle video! The tournament brackets are updated in real-time as matches conclude. See who is advancing and what incredible matchups are coming up next.</p>
                 <p>All matches from the Quarterfinal stage onward will be recorded from the community. Don't miss a second of the action!</p>
             `
-        },
+        },*/
          rules: {
             title: "Official Tournament Rules",
             image: "https://upload.wikimedia.org/wikipedia/fr/6/67/Mega_Man_Star_Force_3_Logo.png",
@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mainTitle: "MMSF3 Mini Tournament 2025",
             navAbout: "About",
             navSchedule: "Schedule",
-            navBrackets: "Brackets",
+          /* navBrackets: "Brackets",*/
             navRanking: "Ranking",
            /* navFormat: "Format", */
             navRules: "Rules",
@@ -519,7 +519,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('main-title').textContent = texts.mainTitle;
         document.getElementById('nav-about').textContent = texts.navAbout;
         document.getElementById('nav-schedule').textContent = texts.navSchedule;
-        document.getElementById('nav-brackets').textContent = texts.navBrackets;
+       /* document.getElementById('nav-brackets').textContent = texts.navBrackets;*/
         document.getElementById('nav-ranking').textContent = texts.navRanking;
        /* document.getElementById('nav-format').textContent = texts.navFormat; */
         document.getElementById('nav-rules').textContent = texts.navRules;
