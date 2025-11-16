@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- DYNAMIC DATA STORE (ENGLISH) ---
     const tournamentDataEN = {
         groups: [{
-            name: "Group Alpha Standings",
+            name: "Standings",
             players: [
                 { rank: 0, name: 'Cipher', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
                 { rank: 0, name: 'libero', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { p1: 'Cipher', s1: 1, p2: 'ᴰᵃʳᵏSaidh', s2: 1 }/*,
                 { p1: 'libero', s1: 0, p2: 'Thiago', s2: 0 } */
             ]
-        }, {
+        }/*, {
             name: "Group Bravo Standings",
             players: [
                 { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 },
                 { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 } */
             ]
-        }],
+        }*/],
        /* knockout: {
             rounds: [
                 {
@@ -139,9 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
         schedule: { /* ... content remains the same ... */ },
         brackets: { /* ... content remains the same ... */ },
         ranking: {
-            title: "Group Stage Standings",
+            title: "Stage Standings",
             image: "MMSF3GuidebookBlackbox.webp",
-            content: `<p>In the Group Stage, players battle everyone in their group. Standings are determined by match wins. The player who reached the first place will win the tournament.</p>`,
+            content: `<p>In the Stage Standings, players battle everyone in the Stage Standings. Standings are determined by match wins. The player who reached the first place will win the tournament.</p>`,
             dynamicContent: tournamentDataEN // Reference to dynamic data
         },
        /* format: {
