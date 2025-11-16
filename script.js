@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pageDataEN = {
         about: { /* ... content remains the same ... */ },
         schedule: { /* ... content remains the same ... */ },
-       /* brackets: { /* ... content remains the same ... */ },*/
+       // brackets: { /* ... content remains the same ... */ },
         ranking: {
             title: "Group Stage Standings",
             image: "MMSF3GuidebookBlackbox.webp",
