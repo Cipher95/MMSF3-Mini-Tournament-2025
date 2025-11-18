@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
             content: `
                 <ul>
                     <li><b>Week 1: Registration</b> - Player registration and folder submission begins.</li>
-                    <li><b>Week 2: Group Stages</b> - The top players are seeded into groups to battle in a round-robin format.</li>
+                    <li><b>Week 2: Stage Standings</b> - The top players are seeded into Stage Standings to win the tournament.</li>
                    
                 </ul>
             `
