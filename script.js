@@ -209,8 +209,8 @@ document.addEventListener('DOMContentLoaded', () => {
             content: `
                 <p>To ensure competitive integrity, all participants must adhere to the official rules established by Cipher.</p>
                 <ul>
-                    <li><b>Game Version:</b> All players must use an unmodified or modified version of Mega Man Star Force 3: Black Ace or Red Joker.</li>
-                    <li><b>Folder Rules:</b> Each player's Folder must contain exactly 30 Battle Cards. Only one Giga Card is permitted per folder.</li>
+                    <li><b>Game Version:</b> All players must use an unmodified or modified version of Ryūsei no Rockman 3 Black Ace or Red Joker.</li>
+                    <li><b>Folder Rules:</b> Each player's Folder must contain exactly 30 Battle Cards.</li>
                     <li><b>Noise Forms:</b> All Noise Change forms are permitted. Use of Finalized forms (Black Ace / Red Joker) is allowed only if the Noise gauge is filled to 200% through normal gameplay.</li>
                     <li><b>BrotherBand:</b> Players must form a real-life BrotherBand connection or fake BrotherBand for their match.</li>
                     <li><b>Banned Noise:</b> Rogue (Burai) Noise is not permitted.</li>
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li><b>Banned Giga Cards:</b> The Giga Cards Admins, Acid Arrest, Crimson Meteor, and Darkness Hole are not allowed.</li>
                     <li><b>Version Exclusive Giga Cards:</b> Black Ace Giga Cards may not be included in a Red Joker folder, and Red Joker Giga Cards may not be included in a Black Ace folder. Access via card roulette is permitted.</li>
                     <li><b>Disputes:</b> In case of a disconnect, Cipher will review match data to determine the outcome. All admin decisions are final.</li>
-                    <li><b>Penalty:</b> Any player found breaking these rules will be immediately disqualified (DQ'd).</li>
+                    <li><b>Penalty:</b> Any player found breaking these rules or using cheats that ruin the game will be immediately disqualified.</li>
                 </ul>
             `
         }
@@ -263,15 +263,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>競技の公正性を確保するため、すべての参加者はサイファーが定める公式ルールを遵守しなければなりません。</p>
                 <ul>
                     <li><b>ゲームバージョン：</b>すべてのプレイヤーは、改造されていない、または改造された『流星のロックマン3 ブラックエース』または『レッドジョーカー』を使用しなければなりません。</li>
-                    <li><b>フォルダールール：</b>各プレイヤーのフォルダには、正確に30枚のバトルカードが含まれていなければなりません。フォルダごとに許可されるギガカードは1枚のみです。</li>
+                    <li><b>フォルダールール：</b>各プレイヤーのフォルダには、正確に30枚のバトルカードが含まれていなければなりません。</li>
                     <li><b>ノイズ形態：</b>すべてのノイズチェンジ形態が許可されます。ファイナライズ形態（ブラックエース／レッドジョーカー）の使用は、通常のゲームプレイを通じてノイズゲージが200%に達した場合にのみ許可されます。</li>
                     <li><b>ブラザーバンド：</b>プレイヤーは試合のために現実世界でのブラザーバンド接続またはフェイクブラザーバンドを結ばなければなりません。</li>
                     <li><b>禁止ノイズ：</b>ブライノイズの使用は許可されません。</li>
                     <li><b>禁止スタンダードカード：</b>カード「ブラックホール」（1、2、3、X）は禁止です。</li>
                     <li><b>禁止ギガカード：</b>ギガカード「アドミン」、「アシッドアレスト」、「クリムゾンメテオ」、「ダークネスホール」は禁止です。</li>
-                    <li><b>バージョン限定ギガカード：</b>ブラックエースのギгаカードをレッドジョーカーのフォルダに、またレッドジョーカーのギгаカードをブラックエースのフォルダに入れることはできません。カードルーレットによる使用は許可されます。</li>
+                    <li><b>バージョン限定ギガカード：</b>ブラックエースのギガカードをレッドジョーカーのフォルダに、またレッドジョーカーのギガカードをブラックエースのフォルダに入れることはできません。カードルーレットによる使用は許可されます。</li>
                     <li><b>紛争：</b>接続が切断された場合、サイファーが試合データを確認して結果を決定します。すべての管理者の決定は最終的なものです。</li>
-                    <li><b>ペナルティ：</b>これらのルールに違反したプレイヤーは、即座に失格（DQ）となります。</li>
+                    <li><b>ペナルティ：</b>これらのルールに違反したり、ゲームを台無しにする不正行為を行ったプレイヤーは、即座に失格となります。</li>
                 </ul>
             `
         }
