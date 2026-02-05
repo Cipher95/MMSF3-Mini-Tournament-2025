@@ -184,6 +184,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>The MMSF3 Mini Tournament is proudly sanctioned and hosted by the Cipher's Competitive Gaming Division. We are dedicated to ensuring a fair, high-energy event for all participants and viewers, upholding the highest standards of competitive integrity.</p>
             `
         },
+        registration: {
+            title: "How to Register",
+            image: "MMSF3TournamentArt.webp",
+            content: `
+                <h3>How to sign up?</h3>
+                <p>To sign up, send a Direct Message (DM) to the person who hosted the tournament.</p>
+                <h3>Where is the tournament played?</h3>
+                <p>The tournament will be held on our Discord server. Here is the invite link: <a href="https://discord.gg/s3WZUNDsAq" target="_blank">https://discord.gg/s3WZUNDsAq</a>. The main channel for the tournament will be #[tournament-chat].</p>
+                <h3>How is it played?</h3>
+                <p>The tournament will be played using the MelonDS emulator.</p>
+            `
+        },
         schedule: {
             title: "Event Schedule",
             image: "https://pm1.aminoapps.com/8389/351a4299a369e89a7ba8f64418c9e578af6bab05r1-755-1068v2_hq.jpg",
@@ -236,6 +248,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>MMSF3グランドトーナメントは、サイファーの競技ゲーム部門によって誇りを持って公認・主催されています。私たちは、すべての参加者と視聴者のために、公正でエネルギッシュなイベントを保証し、競技の完全性の最高水準を維持することに専念しています。</p>
             `
         },
+        registration: {
+            title: "登録方法",
+            image: "MMSF3TournamentArt.webp",
+            content: `
+                <h3>登録方法</h3>
+                <p>登録するには、トーナメントの主催者にダイレクトメッセージ（DM）を送信してください。</p>
+                <h3>開催場所</h3>
+                <p>トーナメントは私たちのDiscordサーバーで開催されます。招待リンクはこちらです：<a href="https://discord.gg/s3WZUNDsAq" target="_blank">https://discord.gg/s3WZUNDsAq</a>。トーナメントのメインチャンネルは#[tournament-chat]になります。</p>
+                <h3>プレイ方法</h3>
+                <p>トーナメントはMelonDSエミュレータを使用してプレイされます。</p>
+            `
+        },
         schedule: {
             title: "イベントスケジュール",
             image: "https://pm1.aminoapps.com/8389/351a4299a369e89a7ba8f64418c9e578af6bab05r1-755-1068v2_hq.jpg",
@@ -286,6 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
             pageTitle: "MMSF3 Mini Tournament 2025",
             mainTitle: "MMSF3 Mini Tournament 2025",
             navAbout: "About",
+            navRegistration: "Registration",
             navSchedule: "Schedule",
           /* navBrackets: "Brackets",*/
             navRanking: "Ranking",
@@ -297,6 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
             pageTitle: "流星のロックマン3 グランドトーナメント 2025",
             mainTitle: "流星のロックマン3 グランドトーナメント 2025",
             navAbout: "概要",
+            navRegistration: "登録",
             navSchedule: "スケジュール",
             navBrackets: "対戦表",
             navRanking: "ランキング",
@@ -518,6 +544,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.title = texts.pageTitle;
         document.getElementById('main-title').textContent = texts.mainTitle;
         document.getElementById('nav-about').textContent = texts.navAbout;
+        document.getElementById('nav-registration').textContent = texts.navRegistration;
         document.getElementById('nav-schedule').textContent = texts.navSchedule;
        /* document.getElementById('nav-brackets').textContent = texts.navBrackets;*/
         document.getElementById('nav-ranking').textContent = texts.navRanking;
